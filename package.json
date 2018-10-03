@@ -1,0 +1,19 @@
+{
+  "name": "doggo-adapter-gpg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wswoodruff/doggo-adapter-gpg.git"
+  },
+  "author": "William Woodruff <williamswoodruff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wswoodruff/doggo-adapter-gpg/issues"
+  },
+  "homepage": "https://github.com/wswoodruff/doggo-adapter-gpg#readme"
+}
