@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test lab -a code -m 60000"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,24 @@
   "bugs": {
     "url": "https://github.com/wswoodruff/doggo-adapter-gpg/issues"
   },
-  "homepage": "https://github.com/wswoodruff/doggo-adapter-gpg#readme"
+  "homepage": "https://github.com/wswoodruff/doggo-adapter-gpg#readme",
+  "dependencies": {
+    "cryptiles": "4.x.x",
+    "hoek": "4.x.x",
+    "i": "^0.3.6",
+    "joi": "13.x.x",
+    "kbpgp": "2.x.x",
+    "knex": "0.13.x",
+    "npm": "^5.8.0",
+    "prompt-list": "2.2.x",
+    "tmp-promise": "^1.0.4"
+  },
+  "devDependencies": {
+    "bounce": "^1.2.0",
+    "code": "5.x.x",
+    "eslint-config-hapi": "10.x.x",
+    "eslint-plugin-hapi": "4.x.x",
+    "handlebars": "4.x.x",
+    "lab": "^15.4.1"
+  }
 }
