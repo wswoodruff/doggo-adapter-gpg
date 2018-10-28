@@ -4,9 +4,7 @@ const Lab = require('lab');
 const Code = require('code');
 
 const DoggoAdapterGpg = require('../lib')({});
-const Doggo = require('doggo')(DoggoAdapterGpg);
-
-const DoggoAdapterTestSuite = require('doggo/test/adapterTestSuite');
+const DoggoAdapterTestSuite = require('doggo-core/test/adapterTestSuite');
 
 // Test shortcuts
 
