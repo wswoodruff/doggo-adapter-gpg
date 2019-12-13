@@ -22,7 +22,7 @@
     "joi": "13.x.x",
     "kbpgp": "2.x.x",
     "knex": "0.13.x",
-    "npm": "^5.8.0",
+    "npm": "^6.13.4",
     "prompt-list": "2.2.x",
     "tmp-promise": "^1.0.4"
   },
