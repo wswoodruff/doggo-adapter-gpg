@@ -1,10 +1,10 @@
 'use strict';
 
-const Lab = require('lab');
-const Code = require('code');
+const Code = require('@hapi/code');
+const Lab = require('@hapi/lab');
 
-const DoggoAdapterGpg = require('../lib')({});
-const DoggoAdapterTestSuite = require('doggo-core/test/adapterTestSuite');
+const DoggoAdapterGpg = require('../lib');
+const DoggoAdapterTestSuite = require('@xdcreative/doggo/test/adapter-test-suite');
 
 // Test shortcuts
 
@@ -14,12 +14,14 @@ const expect = Code.expect;
 
 describe('doggo-adapter-gpg', () => {
 
-    it('passes with the gpg adapter', async (flags) => {
+    it('passes the doggo adapter-test-suite', async (flags) => {
 
         const testSuite = new DoggoAdapterTestSuite(DoggoAdapterGpg, {
-            expect, lab: { it, describe, before, after }
+            expect,
+            describe,
+            it
         });
 
-        testSuite.genTests();
+        testSuite.run();
     });
 });
