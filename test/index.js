@@ -22,6 +22,6 @@ describe('doggo-adapter-gpg', () => {
             it
         });
 
-        testSuite.run();
+        // testSuite.run();
     });
 });
