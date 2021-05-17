@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@xdcreative/doggo": "0.3.4",
-    "joi": "^17.4.0",
-    "tmp-promise": "^3.0.2"
+    "joi": "17.4.0",
+    "tmp": "0.2.1"
   },
   "devDependencies": {
     "@hapi/code": "^8.0.3",
