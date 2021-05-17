@@ -1,1 +1,1 @@
-# doggo-adapter-gpg
+# doggo-gpg
