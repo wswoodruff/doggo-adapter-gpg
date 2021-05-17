@@ -1,5 +1,5 @@
 {
-  "name": "@xdcreative/doggo-adapter-gpg",
+  "name": "@xdcreative/doggo-gpg",
   "version": "0.5.2",
   "description": "GPG adapter for doggo",
   "author": "wswoodruff",
@@ -30,13 +30,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wswoodruff/doggo-adapter-gpg.git"
+    "url": "git+https://github.com/wswoodruff/doggo-gpg.git"
   },
   "bugs": {
-    "url": "https://github.com/wswoodruff/doggo-adapter-gpg/issues"
+    "url": "https://github.com/wswoodruff/doggo-gpg/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/wswoodruff/doggo-adapter-gpg#readme"
+  "homepage": "https://github.com/wswoodruff/doggo-gpg#readme"
 }
