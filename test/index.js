@@ -18,7 +18,7 @@ const TEST_UTILS = {
     it
 };
 
-describe('doggo-adapter-gpg', () => {
+describe('doggo-gpg', () => {
 
     // Test genKeys and stuff like that here
 });
