@@ -14,7 +14,7 @@
     "test": "NODE_ENV=test lab -a @hapi/code -I '__core-js_shared__,core,cptable,FinalizationRegistry,WeakRef' -L --verbose -t 100"
   },
   "dependencies": {
-    "@xdcreative/doggo": "0.3.4",
+    "@xdcreative/doggo": "^0.4.0",
     "joi": "17.4.0",
     "tmp": "0.2.1"
   },

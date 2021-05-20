@@ -44,5 +44,7 @@ internals.lineIfParam = (param, line) => {
 
 internals.removeEmptyLines = (arr) => {
 
-    return [].concat(arr).map((str) => str.replace(/\n\n/g, ''));
+    const res = [].concat(arr).map((str) => str.replace(/\n\n/g, ''));
+
+    return res[0];
 };
